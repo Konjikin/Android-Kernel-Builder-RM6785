@@ -39,7 +39,7 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/Akitlove/AnyKernel3",
+      "repo": "https://github.com/ygorigor/AnyKernel3",
       "branch": "master"
     }
   }
