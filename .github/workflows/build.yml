@@ -218,7 +218,6 @@ jobs:
           if [ -e "${{ env.OUT_DIR }}/arch/${{ env.ARCH }}/boot/dtbo.img" ]; then
             cp -f ${{ env.OUT_DIR }}/arch/${{ env.ARCH }}/boot/dtbo.img ./AnyKernel3/
           fi
-          fi
 
           cd AnyKernel3/
           zip -q -r "${{ env.anykernel }}.zip" *
