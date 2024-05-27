@@ -209,14 +209,14 @@ jobs:
         run: |
           ls -al
 
-          if [ -e "${{ env.OUT_DIR }}/arch/${{ env.ARCH }}/boot/Image.gz-dtb" ]; then
-            cp -f ${{ env.OUT_DIR }}/arch/${{ env.ARCH }}/boot/Image.gz-dtb ./AnyKernel3/
+          if [ -e "${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/Image.gz-dtb" ]; then
+            cp -f ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/Image.gz-dtb ./AnyKernel3/
           fi
-          if [ -e "${{ env.OUT_DIR }}/arch/${{ env.ARCH }}/boot/dtb.img" ]; then
-            cp -f ${{ env.OUT_DIR }}/arch/${{ env.ARCH }}/boot/dtb.img ./AnyKernel3/
+          if [ -e "${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/dtb.img" ]; then
+            cp -f ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/dtb.img ./AnyKernel3/
           fi
-          if [ -e "${{ env.OUT_DIR }}/arch/${{ env.ARCH }}/boot/dtbo.img" ]; then
-            cp -f ${{ env.OUT_DIR }}/arch/${{ env.ARCH }}/boot/dtbo.img ./AnyKernel3/
+          if [ -e "${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/dtbo.img" ]; then
+            cp -f ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/dtbo.img ./AnyKernel3/
           fi
 
           cd AnyKernel3/
