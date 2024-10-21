@@ -2,7 +2,7 @@
   {
     "kernelSource": {
       "name": "ksu_android_kernel",
-      "repo": "https://github.com/realme-mt6785-devs/android_kernel_realme_mt6785",
+      "repo": "https://github.com/ygorigor/android_kernel_realme_mt6785",
       "branch": "lineage-21",
       "device": "lineage_mt6785",
       "defconfig": "RM6785_defconfig"
