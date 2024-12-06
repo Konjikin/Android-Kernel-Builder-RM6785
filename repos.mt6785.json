@@ -1,13 +1,13 @@
 [
   {
     "kernelSource": {
-      "name": "ksu_android_kernel",
-      "repo": "https://github.com/ygorigor/android_kernel_realme_mt6785",
-      "branch": "lineage-21",
-      "device": "lineage_mt6785",
-      "defconfig": "RM6785_defconfig"
+      "name": "kranul",
+      "repo": "https://github.com/Konjikin/kernel_realme_wasabi",
+      "branch": "R",
+      "device": "RM6785",
+      "defconfig": "wasabi_defconfig"
     },
-    "withKernelSU": true,
+    "withKernelSU": false,
     "toolchains": [
       {
         "repo": "https://github.com/kdrag0n/proton-clang",
