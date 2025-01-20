@@ -39,8 +39,8 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/ygorigor/AnyKernel3",
-      "branch": "rm6785"
+      "repo": "https://github.com/Konjikin/AnyKernel-RM6785.git",
+      "branch": "main"
     }
   }
 ]
